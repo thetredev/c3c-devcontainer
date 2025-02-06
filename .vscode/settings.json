@@ -1,0 +1,5 @@
+{
+  "cmake.sourceDirectory": "/workspaces/c3c-devcontainer/c3c",
+  "cmake.parallelJobs": 8,
+  "cmake.enableAutomaticKitScan": false
+}

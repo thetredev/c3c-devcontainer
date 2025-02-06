@@ -1,0 +1,15 @@
+{
+  "name": "c3c devcontainer",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "args": {
+      // change this to your local timezone
+      "TIMEZONE": "Europe/Berlin"
+    }
+  },
+  "remoteUser": "vscode",
+  "containerEnv": {
+    "EDITOR": "code --wait",
+    "GIT_EDITOR": "code --wait"
+  }
+}
